@@ -3,8 +3,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-body .hero {
-    padding: 32px 100px;
+.hero, .information, .quote, .signup {
+    padding: 32px 120px;
 }
 
 .hero {
@@ -75,6 +75,7 @@ button {
     width: 100px;
     flex: 0 0 auto;
     color: white;
+    height: 3em;
     border-radius: 10px;
 }
 
@@ -108,4 +109,31 @@ button {
     align-items: center;
     text-align: center;
     row-gap: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 200;
+    /* padding: 30px 50px */
+}
+
+.quote-text {
+    font-size: 36px;
+    text-align: left;
+}
+
+.quote-source {
+    text-align: right;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promotion-slogan {
+    font-weight: bold;
 }
