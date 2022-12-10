@@ -61,7 +61,7 @@ img {
 
 .navigation {
     display: flex;
-    gap: 18px;
+    column-gap: 32px;
 }
 
 a {
